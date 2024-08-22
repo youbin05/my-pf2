@@ -1,0 +1,43 @@
+@media screen and (max-width:768px) {
+  html,body{
+    width: 100%;
+    height: auto;
+  }
+/*  common   */
+  .wrap{
+    max-width: 468px;
+    height: auto;
+    margin: 0;
+}
+  header{
+    width: 100%;
+    height: auto;
+  }
+  header div.hed{
+    max-width: 468px !important;
+    height: auto !important;
+    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr !important;
+    grid-template-rows: 1fr !important;
+  }
+  header div.hed h1{
+    width: 130px !important;
+    height: 50px !important;
+  }
+  header div.hed h1 a{
+    
+  }
+  header div.hed ul.gnb{
+  display: none;
+  }
+  header div.hed ul.gnb li{
+    width: 100%;
+    height: auto;
+  }
+  header div.hed ul.gnb li a{
+    font-size: 18px !important;
+  }
+  header div.hed button{
+    grid-column: 3;
+  }
+}
